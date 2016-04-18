@@ -4,12 +4,13 @@ Priority: optional
 Maintainer: Vincent Bernat <bernat@debian.org>
 Uploaders: Faidon Liambotis <paravoid@debian.org>
 Build-Depends: debhelper (>= 9),
-               librdkafka-dev (>= 0.8.4),
-               zlib1g-dev
-Standards-Version: 3.9.6
+               librdkafka-dev (>= 0.9.0),
+               zlib1g-dev,
+               libyajl-dev
+Standards-Version: 3.9.7
 Homepage: https://github.com/edenhill/kafkacat
 Vcs-Browser: https://github.com/edenhill/kafkacat/tree/debian
-Vcs-Git: git://github.com/edenhill/kafkacat.git -b debian
+Vcs-Git: https://github.com/edenhill/kafkacat.git -b debian
 
 Package: kafkacat
 Architecture: any
