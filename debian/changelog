@@ -1,6 +1,7 @@
 kafkacat (1.3.0~pre1-1~precise0+exo1) precise; urgency=medium
 
   * Backport to Precise.
+    - Remove Build-Depends on libyajl-dev.
 
  -- Vincent Bernat <bernat@debian.org>  Mon, 18 Apr 2016 12:02:00 +0200
 
